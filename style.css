@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Verdana, sans-serif;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(17, 75, 199);
+    text-decoration: none;
+    border-radius: 20px;
+}
+  
+a:active {
+    color: rgb(59, 146, 180);
+    text-decoration: none;
+}
+
+
+footer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid gray;
+  border-radius: 15px;
+  color: white;
+  background-color: gray;
+  font-size: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+section {
+  padding-left: 10px;
+}
+
+.navCenter {
+    background-color: rgb(224, 221, 221);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(59, 146, 180);
+    font-size: 18px;
+    box-shadow: 0px 8px 13px 3px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 0px 8px 13px 3px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 8px 13px 3px rgba(0,0,0,0.50);
+}
+
+.navLinks  li{
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid gray;
+    background-color: gray;
+    color: aliceblue;
+
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 3px solid gray;
+}
+
+.btn:hover {
+  background-color: rgb(185, 180, 180);
+  border-radius: 15px;
+}
+
+.fondo {
+  background-color: aliceblue;
+}
+
+#focus {
+  color: rgb(59, 146, 180);
+}
+
+#focus:hover {
+  color: rgb(17, 75, 199);
+}
